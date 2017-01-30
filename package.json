@@ -1,0 +1,25 @@
+{
+  "name": "is-string-helper",
+  "version": "1.0.0",
+  "description": "check object undefined",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dagdun/is-string-helper.git"
+  },
+  "keywords": [
+    "javascript",
+    "check",
+    "string",
+    "undefined"
+  ],
+  "author": "dagdun",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dagdun/is-string-helper/issues"
+  },
+  "homepage": "https://github.com/dagdun/is-string-helper#readme"
+}
