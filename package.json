@@ -1,5 +1,5 @@
 {
-  "name": "is-string-helper",
+  "name": "is-undefined",
   "version": "1.0.0",
   "description": "check object undefined",
   "main": "index.js",
@@ -19,7 +19,7 @@
   "author": "dagdun",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/dagdun/is-string-helper/issues"
+    "url": "https://github.com/dagdun/is-undefined/issues"
   },
-  "homepage": "https://github.com/dagdun/is-string-helper#readme"
+  "homepage": "https://github.com/dagdun/is-undefined#readme"
 }

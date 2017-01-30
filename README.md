@@ -1,4 +1,4 @@
-# is-string-helper
+# is-undefined
 
 ```javascript
 var obj = [{id: 123, name: "test"}];
