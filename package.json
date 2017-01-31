@@ -1,25 +1,28 @@
 {
-  "name": "is-undefined",
+  "name": "is-it",
   "version": "1.0.0",
-  "description": "check object undefined",
+  "description": "don't worry about get value from object/array",
   "main": "index.js",
+  "directories": {
+    "example": "example"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/dagdun/is-string-helper.git"
+    "url": "git+https://github.com/dagdun/is-it.git"
   },
   "keywords": [
     "javascript",
-    "check",
-    "string",
-    "undefined"
+    "undefined",
+    "object",
+    "array"
   ],
   "author": "dagdun",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/dagdun/is-undefined/issues"
+    "url": "https://github.com/dagdun/is-it/issues"
   },
-  "homepage": "https://github.com/dagdun/is-undefined#readme"
+  "homepage": "https://github.com/dagdun/is-it#readme"
 }
