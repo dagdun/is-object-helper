@@ -32,3 +32,28 @@ console.log(is(array2, "[5]", "[5] default value"));
 var arrObj = [{id: 1}];
 console.log(is(arrObj, "[0].id", "[0].id default value"));
 console.log(is(arrObj, "[2].id", "[2].id default value"));
+
+var obj3 = {
+	val1: 1,
+	val2: 2,
+	obj1: {
+		id: 123,
+		name: "test",
+	},
+	fun1: function() {
+		return is(this, "val1", "val1 default value");
+	},
+	fun2: function() {
+		return is(this, "val3", "val3 default value");
+	},
+	fun3: function() {
+		return is(this, "obj1.id", "obj1.id default value");
+	},
+	fun4: function() {
+		return is(this.obj1, "id", "id default value");
+	}
+}
+console.log(obj3.fun1());
+console.log(obj3.fun2());
+console.log(obj3.fun3());
+console.log(obj3.fun4());

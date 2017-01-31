@@ -1,5 +1,5 @@
 {
-  "name": "is-it",
+  "name": "is-object-helper",
   "version": "1.0.0",
   "description": "don't worry about get value from object/array",
   "main": "index.js",
@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/dagdun/is-it.git"
+    "url": "git+https://github.com/dagdun/is-object-helper.git"
   },
   "keywords": [
     "javascript",
@@ -22,7 +22,7 @@
   "author": "dagdun",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/dagdun/is-it/issues"
+    "url": "https://github.com/dagdun/is-object-helper/issues"
   },
-  "homepage": "https://github.com/dagdun/is-it#readme"
+  "homepage": "https://github.com/dagdun/is-object-helper#readme"
 }

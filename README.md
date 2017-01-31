@@ -1,4 +1,4 @@
-# is-it
+# is-object-helper
 
 ```javascript
 var obj = [{id: 123, name: "test"}];
@@ -11,7 +11,7 @@ console.log(obj[0].id); // crashed program
 ```
 
 ```javascript
-var is = require("is-it");
+var is = require("is-object-helper");
 var obj = {};
 console.log(is(obj, "[0].id", null); // null
 ```
